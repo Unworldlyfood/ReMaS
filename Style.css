@@ -1,0 +1,141 @@
+*{
+	font-family:'Arial Rounded MT';
+	font-weight: bold;
+	color: darkgreen;
+	margin:0px;
+	padding:0px;
+	text-decoration: none;
+}
+body {
+	padding-top: 200px;
+}
+.menu{
+	position: absolute;
+	top: 500px;
+	left: 0;
+	transform: translate(0%, -50%);
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	width: 200px;
+	border: solid black 1px;
+	background-color: forestgreen;
+	font-size: 20px;
+	text-decoration:none;
+}
+.menuItem{
+	padding: 10px;
+
+}
+.menuItem:hover{
+	background-color: green;
+	color: white;
+}
+.menuImage{
+	width: auto;
+	height: 80px;
+	padding-right: 15px;
+	position: absolute;
+	top: 110px;
+}
+.form{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 20px;
+	background-color: white;
+	width: 100%;
+	height: 100%;
+	padding-top: 20%;
+	padding-left: 40%;
+	box-sizing: border-box;
+}
+.titelBalk{
+	position: fixed;
+	top: 0;
+	left: 0;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100px;
+}
+.content{
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 100px;
+	padding: 15px;
+	border: solid black 1px;
+	background-color: forestgreen;	
+}
+.left{
+	display: flex;
+	align-items: center;
+}
+.right{
+	display: flex;
+	align-items: center;
+	padding-right: 50px;
+}
+.logoutImage{
+	width: auto;
+	height: 40px;
+	padding-right: 15px;
+}
+.melding{
+	position: absolute;
+	left: 200px;
+	top: 400px;
+}
+.versie{
+	padding-right: 10px;
+}
+.username{
+	padding-right: 10px;;
+}
+.tekst{
+	position: absolute;
+	top: 400px;
+	font-size: 20px;
+	left: 40px;
+}
+
+.tooltip {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltipText {
+	visibility: hidden;
+	width: 120px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+  
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	top: 30px;
+	left: 0px;
+  }
+  
+  .tooltip:hover .tooltipText {
+	visibility: visible;
+  }
+  .loginImage{
+	  position: absolute;
+	  left: 40px;
+	  width: 200px;
+	  height: 200px;
+	  top: 40px;
+  }
+  .schema{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  }

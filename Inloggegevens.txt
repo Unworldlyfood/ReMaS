@@ -1,0 +1,12 @@
+Inloggegevens ReMaS
+
+Gebruikersnaam Wachtwoord	Medewerker level
+
+Level1		level1		1
+Level2		level2		2
+Level3		level3		3
+Level4		level4		4
+Level5		level5		5
+Level6		level6		6
+
+Let op de hoofdletters van de Gebruikersnaam
